@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 300px;
-  height: 300px;
-  background: #fff;
+  width: 500px;
+  flex-direction: column;
+`;
+
+export const Image = styled.img`
+  width: 150px;
+  height: 150px;
 `;
